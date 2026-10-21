@@ -1,3 +1,275 @@
+/* 
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f6fb;
+  color: #333;
+}
+
+.app {
+  max-width: 950px;
+  margin: auto;
+  padding: 20px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+h1,
+h2,
+h3 {
+  color: #3730a3;
+}
+
+.header p,
+.record-count {
+  color: #777;
+}
+
+.internship-form {
+  background: white;
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 8px;
+}
+
+input,
+select,
+button {
+  width: 100%;
+  padding: 10px;
+  margin: 6px 0;
+  font-size: 15px;
+  border-radius: 5px;
+}
+
+input,
+select {
+  border: 1px solid #ccc;
+}
+
+button {
+  background: #3730a3;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #272078;
+}
+
+button:disabled {
+  background: #aaa;
+  cursor: not-allowed;
+}
+
+.success {
+  color: green;
+}
+
+.error {
+  color: red;
+}
+
+.loading,
+.empty,
+.record-count {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.internship-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+}
+
+.internship-card {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  background: white;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.company-image {
+  width: 65px;
+  height: 65px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.card-content h3 {
+  margin-top: 0;
+}
+
+.card-content p {
+  font-size: 14px;
+}
+
+.search-input {
+  margin-bottom: 15px;
+}
+
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  margin: 25px 0;
+}
+
+.pagination button {
+  width: auto;
+  padding: 10px 20px;
+}
+
+
+
+/* * {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f7f4;
+  color: #333333;
+}
+
+.app {
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+h1,
+h2,
+h3 {
+  color: #287a52;
+}
+
+.subtitle,
+.record-count {
+  color: #777777;
+}
+
+.destination-form {
+  background: white;
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 8px;
+}
+
+input,
+textarea,
+button {
+  width: 100%;
+  padding: 10px;
+  margin: 6px 0;
+  font-size: 15px;
+  border-radius: 5px;
+}
+
+input,
+textarea {
+  border: 1px solid #cccccc;
+}
+
+button {
+  background: #287a52;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #1e5c3d;
+}
+
+button:disabled {
+  background: #aaaaaa;
+  cursor: not-allowed;
+}
+
+.search-input {
+  margin-bottom: 15px;
+}
+
+.destination-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+}
+
+.destination-card {
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid #dddddd;
+}
+
+.destination-image {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 15px;
+}
+
+.card-content h3 {
+  margin-top: 0;
+}
+
+.card-content p {
+  font-size: 14px;
+}
+
+.success {
+  color: green;
+}
+
+.error {
+  color: red;
+}
+
+.loading,
+.empty,
+.record-count {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin: 25px 0;
+}
+
+.pagination button {
+  width: auto;
+  padding: 10px 20px;
+} */ */
+
+
 * {
   box-sizing: border-box;
 }
@@ -6,68 +278,68 @@ body {
   margin: 0;
   font-family: Arial, sans-serif;
   background: #f5f3ff;
-  color: #292524;
+  color: #333333;
 }
 
 .app {
-  max-width: 850px;
-  margin: 30px auto;
-  padding: 25px;
+  max-width: 1100px;
+  margin: auto;
+  padding: 20px;
 }
 
-h1,
-h2 {
-  color: #6d28d9;
-}
-
-h1 {
+.header {
   text-align: center;
-}
-
-.subtitle,
-.record-count {
-  text-align: center;
-  color: #78716c;
-}
-
-.subtitle {
   margin-bottom: 30px;
 }
 
-.internship-form,
-.internship-card {
-  background: #ffffff;
+.tagline {
+  color: #8b5cf6;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+h1,
+h2,
+h3 {
+  color: #6d28d9;
+}
+
+.header p {
+  color: #777777;
+}
+
+.course-form {
+  max-width: 600px;
+  margin: 0 auto 35px;
   padding: 20px;
-  margin-bottom: 20px;
+  background: white;
   border-radius: 8px;
-  border: 1px solid #e9d5ff;
 }
 
 input,
 select,
 button {
   width: 100%;
-  padding: 12px;
-  margin: 6px 0;
+  padding: 11px;
+  margin: 7px 0;
   font-size: 15px;
   border-radius: 5px;
 }
 
 input,
 select {
-  border: 1px solid #a78bfa;
-  background: #ffffff;
-  color: #292524;
+  border: 1px solid #d1d5db;
+  background: white;
 }
 
 input:focus,
 select:focus {
-  outline: 2px solid #6d28d9;
+  outline: 2px solid #a78bfa;
 }
 
 button {
   background: #6d28d9;
-  color: #ffffff;
+  color: white;
   border: none;
   cursor: pointer;
 }
@@ -77,33 +349,104 @@ button:hover {
 }
 
 button:disabled {
-  background: #c4b5fd;
+  background: #bdb4d0;
   cursor: not-allowed;
 }
 
-.internship-card h3 {
-  color: #6d28d9;
-}
-
 .success {
-  color: #15803d;
+  color: green;
 }
 
 .error {
-  color: #dc2626;
+  color: red;
+}
+
+.loading,
+.empty,
+.record-count {
+  text-align: center;
+  margin: 20px 0;
+  color: #777777;
+}
+
+.search-input {
+  margin-bottom: 15px;
+}
+
+.course-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+}
+
+.course-card {
+  background: white;
+  border: 1px solid #e5e0f5;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.course-image {
+  width: 100%;
+  height: 170px;
+  object-fit: cover;
+  display: block;
+}
+
+.course-content {
+  padding: 15px;
+}
+
+.course-content h3 {
+  margin: 12px 0;
+}
+
+.category {
+  color: #6d28d9;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.description {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #666666;
+}
+
+.course-link {
+  display: inline-block;
+  margin-top: 8px;
+  color: #6d28d9;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.course-link:hover {
+  text-decoration: underline;
 }
 
 .pagination {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 20px;
+  gap: 15px;
+  margin: 25px 0;
 }
 
 .pagination button {
   width: auto;
+  padding: 10px 20px;
 }
 
-.record-count {
-  margin-top: 20px;
+.footer {
+  margin-top: 30px;
+  text-align: center;
+  color: #777777;
+  font-size: 13px;
 }
+
+.footer a {
+  color: #6d28d9;
+}
+
+
